@@ -72,7 +72,7 @@ Open a new terminal and run the following commands -
 - **main.py** is main file for running the app.
 
 #### Directory Structure of the Project
-![picture](directoryStructure.png)
+![](directoryStructure.png)
 
 ## Benchmarks
 #### CPU
