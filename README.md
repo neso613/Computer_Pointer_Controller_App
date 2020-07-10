@@ -1,0 +1,2 @@
+# Computer_Controller_App
+Computer Pointer Controller application used to control mouse pointer movement by eye gaze and head pose of human being. The project's main aim is to deploy multiple model altogether using OpenVino ToolKit. I have used 4 pre-trained model provided by Open Model Zoo. This app is an integration of face detection model, head-pose estimation model, facial landmarks model and gaze estimation deep learning model.
