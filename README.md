@@ -33,34 +33,34 @@ Open a new terminal and run the following commands -
 
 - Run main.py for CPU
     >python main.py -f <Path of xml file of face detection model> \
--lm <Path of xml file of facial landmarks detection model> \
--hp <Path of xml file of head pose estimation model> \
--g <Path of xml file of gaze estimation model> \
--i <Path of input video file or enter cam for taking input video from webcam> 
+    >-lm <Path of xml file of facial landmarks detection model> \
+    >-hp <Path of xml file of head pose estimation model> \
+    >-g <Path of xml file of gaze estimation model> \
+    >-i <Path of input video file or enter cam for taking input video from webcam> 
 
 - Run main.py for GPU
     >python main.py -f <Path of xml file of face detection model> \
--lm <Path of xml file of facial landmarks detection model> \
--hp <Path of xml file of head pose estimation model> \
--g <Path of xml file of gaze estimation model> \
--i <Path of input video file or enter cam for taking input video from webcam> \
--d GPU
+    >-lm <Path of xml file of facial landmarks detection model> \
+    >-hp <Path of xml file of head pose estimation model> \
+    >-g <Path of xml file of gaze estimation model> \
+    >-i <Path of input video file or enter cam for taking input video from webcam> \
+    >-d GPU
 
 - Run main.py for FPGA
-    >python main.py -f <Path of xml file of face detection model> 
--lm <Path of xml file of facial landmarks detection model> 
--hp <Path of xml file of head pose estimation model> 
--g <Path of xml file of gaze estimation model> 
--i <Path of input video file or enter cam for taking input video from webcam> 
--d HETERO:FPGA,CPU
+    >python main.py -f <Path of xml file of face detection model> \
+    >-lm <Path of xml file of facial landmarks detection model> \
+    >-hp <Path of xml file of head pose estimation model> \
+    >-g <Path of xml file of gaze estimation model> \
+    >-i <Path of input video file or enter cam for taking input video from webcam> \
+    >-d HETERO:FPGA,CPU
 
 - Run main.py for MYRIAD
     >python main.py -f <Path of xml file of face detection model> \
--lm <Path of xml file of facial landmarks detection model> \
--hp <Path of xml file of head pose estimation model> \
--g <Path of xml file of gaze estimation model> \
--i <Path of input video file or enter cam for taking input video from webcam> \
--d HETERO:MYRIAD,CPU
+    >-lm <Path of xml file of facial landmarks detection model> \
+    >-hp <Path of xml file of head pose estimation model> \
+    >-g <Path of xml file of gaze estimation model> \
+    >-i <Path of input video file or enter cam for taking input video from webcam> \
+    >-d HETERO:MYRIAD,CPU
 
 ## Documentation
 #### Details of Models
