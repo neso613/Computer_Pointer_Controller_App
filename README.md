@@ -47,11 +47,11 @@ Open a new terminal and run the following commands -
 -d GPU
 
 - Run main.py for FPGA
-    >python main.py -f <Path of xml file of face detection model> \
--lm <Path of xml file of facial landmarks detection model> \
--hp <Path of xml file of head pose estimation model> \
--g <Path of xml file of gaze estimation model> \
--i <Path of input video file or enter cam for taking input video from webcam> \
+    >python main.py -f <Path of xml file of face detection model> 
+-lm <Path of xml file of facial landmarks detection model> 
+-hp <Path of xml file of head pose estimation model> 
+-g <Path of xml file of gaze estimation model> 
+-i <Path of input video file or enter cam for taking input video from webcam> 
 -d HETERO:FPGA,CPU
 
 - Run main.py for MYRIAD
